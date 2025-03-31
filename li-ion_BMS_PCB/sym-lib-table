@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "li-ion_BMS")(type "KiCad")(uri "${KIPRJMOD}/li-ion_BMS_kicadLib/li-ion_BMS.kicad_sym")(options "")(descr ""))
+)

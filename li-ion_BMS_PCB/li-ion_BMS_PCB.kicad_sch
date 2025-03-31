@@ -1,5 +1,537 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "687b74a1-dab0-4ea7-bc7a-d8314bb038f6")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 78.74 53.34) (xy 87.63 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08da924d-2523-4411-a404-1e43cb5dcb97")
+	)
+	(wire
+		(pts
+			(xy 78.74 73.66) (xy 87.63 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2446271a-a3ba-42f1-a75f-6f89cd2e2b1c")
+	)
+	(wire
+		(pts
+			(xy 78.74 48.26) (xy 87.63 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f19527-e65d-4c57-a5dc-c6bc351b6ead")
+	)
+	(wire
+		(pts
+			(xy 78.74 38.1) (xy 87.63 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2966b542-bad7-4cc7-8074-c73f095a8c29")
+	)
+	(wire
+		(pts
+			(xy 78.74 45.72) (xy 87.63 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65867e40-2071-4663-9156-e43182127e3c")
+	)
+	(wire
+		(pts
+			(xy 78.74 66.04) (xy 87.63 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f9d4a6-d165-4b82-9032-c52d5c39e0ba")
+	)
+	(wire
+		(pts
+			(xy 78.74 58.42) (xy 87.63 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd9cfa8-6e7c-42be-bd7f-7d82d31d4307")
+	)
+	(wire
+		(pts
+			(xy 78.74 55.88) (xy 87.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb4b10e-f872-49d5-a03b-5a82dd43698b")
+	)
+	(wire
+		(pts
+			(xy 78.74 43.18) (xy 87.63 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1589f6-48c6-4128-aa1c-8d4a4cfbdb8e")
+	)
+	(wire
+		(pts
+			(xy 78.74 40.64) (xy 87.63 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933cc0ba-73e7-48b5-804b-50c8b1454539")
+	)
+	(wire
+		(pts
+			(xy 78.74 68.58) (xy 87.63 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "986ff61f-31d0-48fc-ad30-3af9668a8232")
+	)
+	(wire
+		(pts
+			(xy 78.74 71.12) (xy 87.63 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5fbf9f-fefa-4b33-9d20-52507e105453")
+	)
+	(wire
+		(pts
+			(xy 78.74 50.8) (xy 87.63 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbeceeff-69c0-402a-bc1b-675df1021ad5")
+	)
+	(sheet
+		(at 35.56 35.56)
+		(size 43.18 74.93)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b826ee5-3be2-4e85-927f-bea35bc493f6")
+		(property "Sheetname" "BMS_IC_Circuit"
+			(at 35.56 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMS_IC_Circuit.kicad_sch"
+			(at 35.56 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" input
+			(at 78.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "68c9d9b8-25d7-4a83-8da1-4b6364fa8edf")
+		)
+		(pin "SCL" input
+			(at 78.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5ba259c3-9e4d-4307-9741-c0793897ee1b")
+		)
+		(pin "C3" input
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a64ace25-8a0e-4055-bcd4-4babaaa7ff09")
+		)
+		(pin "C5" input
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "85d4c28a-1e59-4844-b941-7cac8185ebb4")
+		)
+		(pin "BATT+" input
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b4db3706-f44a-4352-a5b1-02a18f437508")
+		)
+		(pin "C4" input
+			(at 78.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a79bcb82-ad4b-41a8-b6a2-4463e41003ef")
+		)
+		(pin "ISENSEN" input
+			(at 78.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a69f090a-a5ea-4ec3-807c-940af268e7a6")
+		)
+		(pin "C2" input
+			(at 78.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "86d8b411-dd7f-4b0e-96ee-97bceade04c0")
+		)
+		(pin "C1" input
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "965985a5-22a8-4b21-b1be-1e1505ce9046")
+		)
+		(pin "C0" input
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "af811cba-6f25-4110-95f3-14c3f2e77962")
+		)
+		(pin "ISENSEP" input
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21f88889-5fd2-46df-b1b3-e6082de2e858")
+		)
+		(pin "VSD" input
+			(at 78.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9728b973-5d24-465a-a66d-49807169fe8d")
+		)
+		(pin "DCHG" input
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "73dfc633-08da-4a7e-8517-e3301deffbfe")
+		)
+		(pin "CHG" input
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "24b7fda8-b056-457b-8993-ac08530de4f0")
+		)
+		(pin "VSC" input
+			(at 78.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8a03433b-9786-4546-a0fe-4f0a8369650c")
+		)
+		(instances
+			(project "li-ion_BMS_PCB"
+				(path "/687b74a1-dab0-4ea7-bc7a-d8314bb038f6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 92.71)
+		(size 43.18 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b17c5014-9d35-4ee2-83a1-c521429ccae1")
+		(property "Sheetname" "MCU_Circuit"
+			(at 87.63 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_Circuit.kicad_sch"
+			(at 87.63 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "li-ion_BMS_PCB"
+				(path "/687b74a1-dab0-4ea7-bc7a-d8314bb038f6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 35.56)
+		(size 43.18 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd4656bf-8316-4c48-a787-d6f0e00440d2")
+		(property "Sheetname" "Battery_Interfacing_Circuit"
+			(at 87.63 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/home/sharkbonebroth/li-ion_BMS/li-ion_BMS_PCB/Battery_Interfacing_Circuit.kicad_sch"
+			(at 87.63 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BATT+" input
+			(at 87.63 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c437b2b9-e047-4b91-ac22-b7545b1d35f1")
+		)
+		(pin "C2" input
+			(at 87.63 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bd948cb5-6f21-41b9-b7f8-ea78263d9b25")
+		)
+		(pin "C3" input
+			(at 87.63 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e5ca4f7a-5259-4e34-8dd6-0053d50e133d")
+		)
+		(pin "C4" input
+			(at 87.63 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "43b6fdbe-e4a7-4a3a-af2a-384070d7e7b8")
+		)
+		(pin "C5" input
+			(at 87.63 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7529a5a9-df62-47db-970c-5d0c570618e8")
+		)
+		(pin "ISENSEN" input
+			(at 87.63 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "70c82c21-4112-4947-a745-338b003658d2")
+		)
+		(pin "C1" input
+			(at 87.63 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a41e029a-66d9-4deb-a6e0-b64c3e7efe00")
+		)
+		(pin "ISENSEP" input
+			(at 87.63 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ee574857-fe0b-4a9b-ab5d-23e00c54bb3b")
+		)
+		(pin "C0" input
+			(at 87.63 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc2e59c2-4a63-4e2c-9267-47951ee1e411")
+		)
+		(pin "VSC" input
+			(at 87.63 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f97b5930-2c92-4330-90d7-d9500b89adbf")
+		)
+		(pin "VSD" input
+			(at 87.63 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4f475c38-9430-4de8-b3c9-c25b51589ca6")
+		)
+		(pin "DCHG" input
+			(at 87.63 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "551f36ec-0748-48a5-ac11-d921716f8ad1")
+		)
+		(pin "CHG" input
+			(at 87.63 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "49afef1c-9a2d-4931-9bbf-ec995a55007f")
+		)
+		(instances
+			(project "li-ion_BMS_PCB"
+				(path "/687b74a1-dab0-4ea7-bc7a-d8314bb038f6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

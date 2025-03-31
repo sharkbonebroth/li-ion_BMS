@@ -1,0 +1,29 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "508a6a30-1cd0-480f-9d55-5b9c81323a9c")
+	(paper "A4")
+	(lib_symbols)
+	(text "STM32F103C8T6 MCU Circuit"
+		(exclude_from_sim no)
+		(at 56.896 25.654 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "234896fe-00da-4e38-b99c-89e29aed6593")
+	)
+	(text "Notes\n\n1)	While the L9961 IC has a 3.3V LDO output for powering peripherals, it is only capable of\n	sinking a maximum of 35mA, which is insufficient since we want to be able to power LED\n	indicators"
+		(exclude_from_sim no)
+		(at 24.638 37.338 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f967a91c-fd09-4710-99aa-96e71f29cbb1")
+	)
+)
