@@ -124,7 +124,7 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x06_Pin"
+		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -138,7 +138,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x06_Pin"
+			(property "Value" "Conn_01x06"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -164,21 +164,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated"
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -199,147 +191,86 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x06_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_01x06_1_1"
 				(rectangle
-					(start 0.8636 -7.493)
+					(start -1.27 -7.493)
 					(end 0 -7.747)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(rectangle
-					(start 0.8636 -4.953)
+					(start -1.27 -4.953)
 					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(rectangle
-					(start 0.8636 -2.413)
+					(start -1.27 -2.413)
 					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(rectangle
-					(start 0.8636 0.127)
+					(start -1.27 0.127)
 					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(rectangle
-					(start 0.8636 2.667)
+					(start -1.27 2.667)
 					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(rectangle
-					(start 0.8636 5.207)
+					(start -1.27 5.207)
 					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 180)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -357,7 +288,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -375,7 +306,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -393,7 +324,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -411,7 +342,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -429,7 +360,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -7.62 180)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -439,108 +370,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1367,16 +1196,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 88.9) (xy 78.74 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94ec056c-7f42-4fd6-930f-53a03845f0cd")
-	)
-	(wire
-		(pts
 			(xy 64.77 119.38) (xy 77.47 119.38)
 		)
 		(stroke
@@ -1417,16 +1236,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 119.38) (xy 85.09 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d54d9682-a1cf-47e3-b20f-1947ce53f866")
-	)
-	(wire
-		(pts
 			(xy 88.9 86.36) (xy 88.9 83.82)
 		)
 		(stroke
@@ -1447,16 +1256,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 88.9) (xy 119.38 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3ad62d9-f2b0-472b-8675-194aef3cb3a6")
-	)
-	(wire
-		(pts
 			(xy 88.9 83.82) (xy 109.22 83.82)
 		)
 		(stroke
@@ -1464,16 +1263,6 @@
 			(type default)
 		)
 		(uuid "e3d8dc3e-5021-4f0e-8659-69b53cbcfebd")
-	)
-	(wire
-		(pts
-			(xy 77.47 127) (xy 85.09 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5282f57-8179-4f0d-bed9-3d417cc0682f")
 	)
 	(wire
 		(pts
@@ -1522,12 +1311,12 @@
 	)
 	(text "Notes:\n\n1)	High-side mosfet configuration is used\n2)	The safety bypass feature for complying with UL2595 is not implemented. Refer to L9961 datasheet for implementation details."
 		(exclude_from_sim no)
-		(at 44.45 48.514 0)
+		(at 44.45 45.466 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left top)
 		)
 		(uuid "b0ac107b-0c1a-4ccd-83cf-dc52f9edc96d")
 	)
@@ -1787,73 +1576,6 @@
 		(uuid "e5a9cbf6-6280-4e3b-9e89-16190debd118")
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 85.09 119.38 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ccc1cfa-a9b4-4a39-a33d-acb73a14c814")
-		(property "Reference" "TP10"
-			(at 90.678 118.364 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 90.678 120.904 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 85.09 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 85.09 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e79e75a-3647-48b3-aee2-5eae32b379f8")
-		)
-		(instances
-			(project "li-ion_BMS_PCB"
-				(path "/687b74a1-dab0-4ea7-bc7a-d8314bb038f6/fd4656bf-8316-4c48-a787-d6f0e00440d2"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 77.47 115.57 180)
 		(unit 1)
@@ -1927,73 +1649,6 @@
 			(project "li-ion_BMS_PCB"
 				(path "/687b74a1-dab0-4ea7-bc7a-d8314bb038f6/fd4656bf-8316-4c48-a787-d6f0e00440d2"
 					(reference "RSENSE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 85.09 127 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "133af070-588c-4e2d-9732-2c77d70222ee")
-		(property "Reference" "TP11"
-			(at 90.678 125.984 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 90.678 128.524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 85.09 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 85.09 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07d06e36-cfd5-4262-a6f7-f9333c31d116")
-		)
-		(instances
-			(project "li-ion_BMS_PCB"
-				(path "/687b74a1-dab0-4ea7-bc7a-d8314bb038f6/fd4656bf-8316-4c48-a787-d6f0e00440d2"
-					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -2145,6 +1800,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C78118"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "320e5e66-be26-4118-b3f7-1921d1d94583")
 		)
@@ -2158,6 +1822,97 @@
 			(project "li-ion_BMS_PCB"
 				(path "/687b74a1-dab0-4ea7-bc7a-d8314bb038f6/fd4656bf-8316-4c48-a787-d6f0e00440d2"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 209.55 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f3fcf80-29e5-4de4-ae5b-4e15e1a2e9b1")
+		(property "Reference" "J1"
+			(at 212.09 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 212.09 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
+			(at 209.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 209.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C133065"
+			(at 209.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c4b73bd8-3851-48cd-81a2-4f4cb4ff4be5")
+		)
+		(pin "2"
+			(uuid "2608b5bf-e474-42b6-99da-416cbf757385")
+		)
+		(pin "1"
+			(uuid "094011c3-f491-4b25-83af-304c86af1eb2")
+		)
+		(pin "5"
+			(uuid "b1400a4b-95ed-4238-8fc4-4555c8e5697a")
+		)
+		(pin "3"
+			(uuid "10f0ddc2-947c-4946-8252-6861e9ab003a")
+		)
+		(pin "6"
+			(uuid "c309905d-ce47-4da1-ace4-9110e93764b4")
+		)
+		(instances
+			(project "li-ion_BMS_PCB"
+				(path "/687b74a1-dab0-4ea7-bc7a-d8314bb038f6/fd4656bf-8316-4c48-a787-d6f0e00440d2"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2364,7 +2119,7 @@
 			(uuid "68e993dc-8d77-4b62-91b5-bd96ac96c528")
 		)
 		(instances
-			(project ""
+			(project "li-ion_BMS_PCB"
 				(path "/687b74a1-dab0-4ea7-bc7a-d8314bb038f6/fd4656bf-8316-4c48-a787-d6f0e00440d2"
 					(reference "R11")
 					(unit 1)
@@ -2543,7 +2298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "li-ion_BMS:JLCPCB-DFN-8(4.9x5.8)"
 			(at 91.44 88.9 0)
 			(effects
 				(font
@@ -2597,6 +2352,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C78118"
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a9520d7-1d66-450d-afa7-081670155300")
 		)
@@ -2607,76 +2371,9 @@
 			(uuid "15027eca-bbef-45ed-a319-f6cce2f91e20")
 		)
 		(instances
-			(project ""
-				(path "/687b74a1-dab0-4ea7-bc7a-d8314bb038f6/fd4656bf-8316-4c48-a787-d6f0e00440d2"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 78.74 88.9 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f71e2ff-aac9-4156-8ba0-39ed924573bf")
-		(property "Reference" "TP8"
-			(at 76.2 84.3279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 76.2 86.8679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 73.66 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 78.74 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "234faade-1e03-47e6-8147-578c5a754691")
-		)
-		(instances
 			(project "li-ion_BMS_PCB"
 				(path "/687b74a1-dab0-4ea7-bc7a-d8314bb038f6/fd4656bf-8316-4c48-a787-d6f0e00440d2"
-					(reference "TP8")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2741,163 +2438,6 @@
 			(project "li-ion_BMS_PCB"
 				(path "/687b74a1-dab0-4ea7-bc7a-d8314bb038f6/fd4656bf-8316-4c48-a787-d6f0e00440d2"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
-		(at 209.55 92.71 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3f6689d-f311-4991-a39f-1c5ff1553e36")
-		(property "Reference" "J1"
-			(at 210.82 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x06_Pin"
-			(at 210.82 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
-			(at 209.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 209.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C133065"
-			(at 209.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "f9de590a-4aca-4956-9bad-2e9321f6613e")
-		)
-		(pin "3"
-			(uuid "17f4b635-b8eb-461b-bed0-baa99cd28a1b")
-		)
-		(pin "6"
-			(uuid "c3ca47d3-cb37-49d7-a9ef-e281e016b190")
-		)
-		(pin "2"
-			(uuid "9e5dc7d9-e3b4-45a2-b7d4-6eb5fc6ce08e")
-		)
-		(pin "4"
-			(uuid "e0da5a35-e69e-43f2-aad7-ecbe84237849")
-		)
-		(pin "1"
-			(uuid "186bf5dc-a351-45a2-a995-30a1f42c7ae7")
-		)
-		(instances
-			(project ""
-				(path "/687b74a1-dab0-4ea7-bc7a-d8314bb038f6/fd4656bf-8316-4c48-a787-d6f0e00440d2"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 119.38 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "fbdc22c0-cc21-4d60-b6b5-f0008489d051")
-		(property "Reference" "TP9"
-			(at 121.92 84.3279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 121.92 86.8679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 124.46 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bec2a4b1-522e-43b7-80b4-309ce0247d4c")
-		)
-		(instances
-			(project "li-ion_BMS_PCB"
-				(path "/687b74a1-dab0-4ea7-bc7a-d8314bb038f6/fd4656bf-8316-4c48-a787-d6f0e00440d2"
-					(reference "TP9")
 					(unit 1)
 				)
 			)

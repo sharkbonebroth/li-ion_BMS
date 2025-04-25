@@ -17,6 +17,36 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 105.41) (xy 87.63 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e6bd6cd-d691-40e1-aa4e-c129c6127deb")
+	)
+	(wire
+		(pts
+			(xy 78.74 97.79) (xy 87.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1efc8ba2-eced-4378-94a9-0cbf95156248")
+	)
+	(wire
+		(pts
+			(xy 78.74 95.25) (xy 87.63 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "235e8cc4-c4ed-49b6-a379-8163b9c828ba")
+	)
+	(wire
+		(pts
 			(xy 78.74 73.66) (xy 87.63 73.66)
 		)
 		(stroke
@@ -44,6 +74,16 @@
 			(type default)
 		)
 		(uuid "2966b542-bad7-4cc7-8074-c73f095a8c29")
+	)
+	(wire
+		(pts
+			(xy 78.74 90.17) (xy 87.63 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4996996b-95e1-4f28-a76e-eb8a41233e7e")
 	)
 	(wire
 		(pts
@@ -87,6 +127,26 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 102.87) (xy 87.63 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f44cd0-8428-4869-a421-357c5fd5f6b5")
+	)
+	(wire
+		(pts
+			(xy 78.74 100.33) (xy 87.63 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe3b874-8a30-43b7-bafb-2180f79b0798")
+	)
+	(wire
+		(pts
 			(xy 78.74 43.18) (xy 87.63 43.18)
 		)
 		(stroke
@@ -117,6 +177,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 92.71) (xy 87.63 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c06379-85e3-42df-9ccd-bbe8707bcf11")
+	)
+	(wire
+		(pts
 			(xy 78.74 71.12) (xy 87.63 71.12)
 		)
 		(stroke
@@ -124,6 +194,16 @@
 			(type default)
 		)
 		(uuid "cc5fbf9f-fefa-4b33-9d20-52507e105453")
+	)
+	(wire
+		(pts
+			(xy 78.74 107.95) (xy 87.63 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d854c6e2-01dc-4048-9a4f-df669c4ece55")
 	)
 	(wire
 		(pts
@@ -166,7 +246,7 @@
 			)
 		)
 		(pin "SDA" input
-			(at 78.74 102.87 0)
+			(at 78.74 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -176,7 +256,7 @@
 			(uuid "68c9d9b8-25d7-4a83-8da1-4b6364fa8edf")
 		)
 		(pin "SCL" input
-			(at 78.74 100.33 0)
+			(at 78.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -315,6 +395,66 @@
 			)
 			(uuid "8a03433b-9786-4546-a0fe-4f0a8369650c")
 		)
+		(pin "FAULTN_SAFE" input
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fbf50d57-5923-438b-820d-c54636ffe130")
+		)
+		(pin "FAULTN" input
+			(at 78.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ccab4a16-7952-401b-815a-bca13322cf5b")
+		)
+		(pin "RDY" input
+			(at 78.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "99fff016-7730-416c-9f8f-0f72bb660b51")
+		)
+		(pin "WAKEUP" input
+			(at 78.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1ff3eada-d59e-4142-9ce9-bac2bb12846e")
+		)
+		(pin "NSHIP" input
+			(at 78.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ab70cc33-0a43-4e45-bf5d-a4cc06190c46")
+		)
+		(pin "VREG_3V3" input
+			(at 78.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "20cdf0ee-2dcb-4a7a-bc96-9db9472b017d")
+		)
 		(instances
 			(project "li-ion_BMS_PCB"
 				(path "/687b74a1-dab0-4ea7-bc7a-d8314bb038f6"
@@ -324,8 +464,8 @@
 		)
 	)
 	(sheet
-		(at 87.63 92.71)
-		(size 43.18 17.78)
+		(at 87.63 87.63)
+		(size 43.18 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -336,7 +476,7 @@
 		)
 		(uuid "b17c5014-9d35-4ee2-83a1-c521429ccae1")
 		(property "Sheetname" "MCU_Circuit"
-			(at 87.63 91.9984 0)
+			(at 87.63 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -352,6 +492,86 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "SCL" input
+			(at 87.63 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a6c94cb9-2576-414e-b675-ba3d661791fb")
+		)
+		(pin "NSHIP" input
+			(at 87.63 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff744940-49d2-420a-b496-6173468a7922")
+		)
+		(pin "FAULTN_SAFE" input
+			(at 87.63 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4d36657d-ce42-43b6-89b5-acc2ca13e904")
+		)
+		(pin "SDA" input
+			(at 87.63 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "06467786-cb1a-4903-a239-a2f75bc1c93c")
+		)
+		(pin "RDY" input
+			(at 87.63 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b7d25b94-6814-409f-b6e4-a0ec34194c5a")
+		)
+		(pin "FAULTN" input
+			(at 87.63 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "216080de-532e-457b-9037-3da4a4ad518e")
+		)
+		(pin "WAKEUP" input
+			(at 87.63 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "603a8daf-fb70-4c74-886a-2b2ab3cc5e39")
+		)
+		(pin "VREG_3V3" input
+			(at 87.63 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a06871f2-8394-4a81-8d10-10be5ab2e9b4")
 		)
 		(instances
 			(project "li-ion_BMS_PCB"
@@ -382,7 +602,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "/home/sharkbonebroth/li-ion_BMS/li-ion_BMS_PCB/Battery_Interfacing_Circuit.kicad_sch"
+		(property "Sheetfile" "Battery_Interfacing_Circuit.kicad_sch"
 			(at 87.63 76.7846 0)
 			(effects
 				(font

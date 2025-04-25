@@ -1,4 +1,4 @@
-22647839075916753
+22682749691026259
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -92694,6 +92694,13 @@ DO-214AA
 2
 2
 dKiCadLib
+EEHZC1E331V
+
+
+0
+2
+2
+dKiCadLib
 EEHZC1H121V_AluminumElectrolyticCap
 
 
@@ -92721,6 +92728,20 @@ FPC-SMD_HDGC_0.5K-DX-15PWBG
 0
 17
 17
+dKiCadLib
+FXL0630-100-M
+
+
+0
+2
+2
+dKiCadLib
+G2426S
+
+
+0
+24
+24
 dKiCadLib
 IHLP4040DZER3R3M01
 
@@ -92763,6 +92784,13 @@ JLCPCB_SOT-583-8
 0
 8
 8
+dKiCadLib
+JLCPCB_WFDFN-8-EP(2x2)
+
+
+0
+9
+9
 dKiCadLib
 JLCPCB_WSON-12(3x3)
 
@@ -92946,6 +92974,13 @@ PTN36043B
 19
 19
 dKiCadLib
+PTN36241G
+
+
+0
+12
+12
+dKiCadLib
 PUSB3FR4Z
 
 
@@ -92960,12 +92995,26 @@ QFN-11(3.5x4.5)
 11
 11
 dKiCadLib
+RC01931
+
+
+0
+14
+13
+dKiCadLib
 RTK2B-MICRO-F9P-L1L2UFLSMD-00
 
 
 0
 20
 20
+dKiCadLib
+RTL8153B-VB-CG
+
+
+0
+56
+41
 dKiCadLib
 S02B-PASK-2
 
@@ -93015,6 +93064,13 @@ SM04B-GHS-TB(LF)(SN)
 0
 6
 6
+dKiCadLib
+SMCJ14A
+
+
+0
+2
+2
 dKiCadLib
 SMCJ30A-TVSDiode
 
@@ -93086,6 +93142,13 @@ TPS16630RGER
 25
 25
 dKiCadLib
+TS-1187A-B-A-B
+
+
+0
+4
+4
+dKiCadLib
 TS3USB221ARSER
 
 
@@ -93121,6 +93184,13 @@ UFQFPN-28_L4.0-W4.0-P0.50-BL
 28
 28
 dKiCadLib
+USB2422
+
+
+0
+25
+25
+dKiCadLib
 USB5744-I2G
 
 
@@ -93142,12 +93212,33 @@ usb usb-c 2.0 pd
 20
 17
 dKiCadLib
+XF2M-2015-1A
+
+
+0
+22
+22
+dKiCadLib
+XKB_Connection_USB3.0-A_1.8A_Male_Side_Facing
+
+
+0
+0
+0
+dKiCadLib
 XKB_Connection_USB3.0-A_3A_Upwards_Facing
 
 
 0
 11
 10
+dKiCadLib
+XRCGB24M000F3M00R0
+
+
+0
+4
+4
 dKiCadLib
 dcLogo
 
@@ -93254,7 +93345,28 @@ XY350V-3.5-4P
 4
 4
 li-ion_BMS
+CYH125-47UH
+
+
+0
+2
+2
+li-ion_BMS
 JLCPCB-DFN-8(4.9x5.8)
+
+
+0
+9
+3
+li-ion_BMS
+JLCPCB-LQFP-48(7x7)
+
+
+0
+48
+48
+li-ion_BMS
+NX3215SA-32.768K-STD-MUA-8
 
 
 0
@@ -93267,3 +93379,31 @@ Integrated Circuit
 0
 33
 33
+li-ion_BMS
+SS34
+
+
+0
+2
+2
+li-ion_BMS
+TPS5430DDAR
+
+
+0
+9
+9
+li-ion_BMS
+TS-1187A-B-A-B
+
+
+0
+4
+4
+li-ion_BMS
+WS2812B-Mini
+
+
+0
+4
+4
